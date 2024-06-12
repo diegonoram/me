@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diego Norambuena - Página Personal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #000;
+        }
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin: 1rem 0;
+        }
+        nav a {
+            margin: 0 1rem;
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+        }
+        section {
+            padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .section-title {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        .portfolio-item {
+            border: 1px solid #000;
+            padding: 1rem;
+            margin-bottom: 1rem;
+        }
+        footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 2rem;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Diego Norambuena</h1>
+    </header>
+    <nav>
+        <a href="#about">Acerca de mí</a>
+        <a href="#portfolio">Portafolio</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+    <section id="about">
+        <h2 class="section-title">Acerca de mí</h2>
+        <p>Hola, soy Diego Norambuena. Soy un apasionado por la tecnología y el diseño minimalista. Disfruto creando soluciones simples y efectivas para problemas complejos. En mi tiempo libre, me gusta explorar nuevas tecnologías y aprender constantemente.</p>
+    </section>
+    <section id="portfolio">
+        <h2 class="section-title">Portafolio</h2>
+        <div class="portfolio-item">
+            <h3>Proyecto 1</h3>
+            <p>Descripción del proyecto 1.</p>
+        </div>
+        <div class="portfolio-item">
+            <h3>Proyecto 2</h3>
+            <p>Descripción del proyecto 2.</p>
+        </div>
+        <div class="portfolio-item">
+            <h3>Proyecto 3</h3>
+            <p>Descripción del proyecto 3.</p>
+        </div>
+    </section>
+    <section id="blog">
+        <h2 class="section-title">Blog</h2>
+        <article>
+            <h3>Título del Post 1</h3>
+            <p>Contenido del post 1.</p>
+        </article>
+        <article>
+            <h3>Título del Post 2</h3>
+            <p>Contenido del post 2.</p>
+        </article>
+    </section>
+    <section id="contact">
+        <h2 class="section-title">Contacto</h2>
+        <p>Puedes contactarme a través del siguiente correo: <a href="mailto:diego@example.com">diego@example.com</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Diego Norambuena</p>
+    </footer>
+</body>
+</html>
